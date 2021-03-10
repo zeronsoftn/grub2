@@ -223,20 +223,25 @@ if [ "x${GRUB_ENABLE_BLSCFG}" = "xtrue" ]; then
   arch="$(uname -m)"
   if [ "x${arch}" = "xppc64le" ] && [ -d /sys/firmware/opal ]; then
 
+      BLS_POPULATE_MENU="true"
       petitboot_path="/sys/firmware/devicetree/base/ibm,firmware-versions/petitboot"
 
       if test -e ${petitboot_path}; then
           read -r -d '' petitboot_version < ${petitboot_path}
           petitboot_version="$(echo ${petitboot_version//v})"
-          major_version="$(echo ${petitboot_version} | cut -d . -f1)"
-          minor_version="$(echo ${petitboot_version} | cut -d . -f2)"
 
-          if test -z ${petitboot_version} || test ${major_version} -lt 1 || \
-                  test ${major_version} -eq 1 -a ${minor_version} -lt 8; then
-              BLS_POPULATE_MENU="true"
+	  if test -n ${petitboot_version}; then
+              major_version="$(echo ${petitboot_version} | cut -d . -f1)"
+              minor_version="$(echo ${petitboot_version} | cut -d . -f2)"
+
+              re='^[0-9]+$'
+              if [[ $major_version =~ $re ]] && [[ $minor_version =~ $re ]] &&
+                 ([[ ${major_version} -gt 1 ]] ||
+                  [[ ${major_version} -eq 1 &&
+                     ${minor_version} -ge 8  ]]); then
+                  BLS_POPULATE_MENU="false"
+              fi
           fi
-      else
-          BLS_POPULATE_MENU="true"
       fi
   fi
 
