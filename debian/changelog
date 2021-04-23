@@ -1,3 +1,9 @@
+grub2 (2.04-1zeron3) stable; urgency=medium
+
+  * Release by ZeronsoftN
+
+ -- Joseph Lee <joseph@zeronsoftn.com>  Fri, 23 Apr 2021 00:41:34 +0000
+
 grub2 (2.04-1ubuntu45) hirsute; urgency=medium
 
   * Unapply all patches.
