@@ -33,7 +33,7 @@ export CPPFLAGS :=
 export CFLAGS :=
 export LDFLAGS :=
 
-ifeq (,$(shell which qemu-system-i386 2>/dev/null))
+ifeq (,$(shell command -v qemu-system-i386))
 with_check := no
 else
 with_check := yes
