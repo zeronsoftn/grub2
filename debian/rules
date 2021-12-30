@@ -411,9 +411,6 @@ install/grub-pc install/grub-efi-ia32 install/grub-efi-amd64 install/grub-efi-ia
 	cd debian/tmp-$(package) && find usr/lib/grub -name kernel.img \
 		| sed -e "s%.*%$(package_bin): statically-linked-binary &%g" \
 	>> $(CURDIR)/debian/$(package_bin)/usr/share/lintian/overrides/$(package_bin)
-	cd debian/tmp-$(package) && find ./usr/lib/grub -name kernel.img \
-		| sed -e "s%.*%$(package_bin): statically-linked-binary &%g" \
-	>> $(CURDIR)/debian/$(package_bin)/usr/share/lintian/overrides/$(package_bin)
 	cd debian/tmp-$(package) && find usr/lib/grub -name kernel.img \
 		| sed -e "s%.*%$(package_bin): unstripped-binary-or-object &%g" \
 	>> $(CURDIR)/debian/$(package_bin)/usr/share/lintian/overrides/$(package_bin)
