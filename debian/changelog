@@ -3,6 +3,7 @@ grub2 (2.06-3) UNRELEASED; urgency=medium
   * Update a few leftover uses of "which" to use "command -v" instead.
   * Remove some old Lintian overrides.
   * Trim trailing whitespace.
+  * debian/copyright: use spaces rather than tabs to start continuation lines.
 
  -- Colin Watson <cjwatson@debian.org>  Wed, 01 Dec 2021 13:17:18 +0000
 
