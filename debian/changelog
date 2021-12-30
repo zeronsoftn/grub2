@@ -7,6 +7,8 @@ grub2 (2.06-3) UNRELEASED; urgency=medium
   * Add missing ${misc:Depends} to Depends for grub-efi-ia32-signed-template,
     grub-efi-amd64-signed-template, grub-efi-arm64-signed-template.
   * Bump debhelper from old 10 to 13.
+  * Set upstream metadata fields: Bug-Submit (from ./configure), Repository,
+    Repository-Browse.
 
  -- Colin Watson <cjwatson@debian.org>  Wed, 01 Dec 2021 13:17:18 +0000
 
