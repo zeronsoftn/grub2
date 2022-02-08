@@ -9,6 +9,8 @@ grub2 (2.06-3) UNRELEASED; urgency=medium
   * Bump debhelper from old 10 to 13.
   * Set upstream metadata fields: Bug-Submit (from ./configure), Repository,
     Repository-Browse.
+  * Drop now-unnecessary sparc PIE workaround from debian/rules (thanks,
+    John Paul Adrian Glaubitz; closes: #952815).
 
  -- Colin Watson <cjwatson@debian.org>  Wed, 01 Dec 2021 13:17:18 +0000
 
