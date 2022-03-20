@@ -1,5 +1,6 @@
 grub2 (2.06-3) UNRELEASED; urgency=medium
 
+  [ Colin Watson ]
   * Update a few leftover uses of "which" to use "command -v" instead.
   * Remove some old Lintian overrides.
   * Trim trailing whitespace.
@@ -11,6 +12,9 @@ grub2 (2.06-3) UNRELEASED; urgency=medium
     Repository-Browse.
   * Drop now-unnecessary sparc PIE workaround from debian/rules (thanks,
     John Paul Adrian Glaubitz; closes: #952815).
+
+  [ Debconf translations ]
+  * [id] Indonesian (Andika Triwidada; closes: #1007706).
 
  -- Colin Watson <cjwatson@debian.org>  Wed, 01 Dec 2021 13:17:18 +0000
 
