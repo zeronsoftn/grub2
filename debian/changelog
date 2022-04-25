@@ -16,6 +16,9 @@ grub2 (2.06-3) UNRELEASED; urgency=medium
   [ Debconf translations ]
   * [id] Indonesian (Andika Triwidada; closes: #1007706).
 
+  [ Julian Andres Klode ]
+  * Add Julian Andres Klode to uploaders
+
  -- Colin Watson <cjwatson@debian.org>  Wed, 01 Dec 2021 13:17:18 +0000
 
 grub2 (2.06-2) unstable; urgency=medium
