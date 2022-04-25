@@ -18,6 +18,8 @@ grub2 (2.06-3) UNRELEASED; urgency=medium
 
   [ Julian Andres Klode ]
   * Add Julian Andres Klode to uploaders
+  * Disable building with LTO, as used in Ubuntu and possibly other
+    downstreams (maybe Debian one day), as that breaks the build.
 
  -- Colin Watson <cjwatson@debian.org>  Wed, 01 Dec 2021 13:17:18 +0000
 

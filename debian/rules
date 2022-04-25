@@ -10,6 +10,8 @@ DEB_HOST_ARCH ?= $(shell dpkg-architecture -qDEB_HOST_ARCH 2>/dev/null)
 DEB_HOST_ARCH_OS ?= $(shell dpkg-architecture -qDEB_HOST_ARCH_OS 2>/dev/null)
 DEB_HOST_ARCH_CPU ?= $(shell dpkg-architecture -qDEB_HOST_ARCH_CPU 2>/dev/null)
 
+export DEB_BUILD_MAINT_OPTIONS = optimize=-lto
+
 HOST_CPPFLAGS := $(shell dpkg-buildflags --get CPPFLAGS)
 # -O3 (default on Ubuntu ppc64el) introduces various -Werror failures, and
 # isn't worth it here.
