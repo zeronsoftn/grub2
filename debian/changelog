@@ -6,6 +6,7 @@ grub2 (2.06-4) UNRELEASED; urgency=medium
     /etc/default/grub to make it easier for users to turn os-prober
     back on if they want it. Closes: #1013797, #1009336
   * Add smbios to the signed grub efi images. Closes: #1008106
+  * Add serial to the signed grub efi images. Closes: #1013962
   * grub2-common: Remove dependency on install-info, it's apparently
     not needed. Closes: #1013698
 
