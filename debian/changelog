@@ -2,10 +2,10 @@ grub2 (2.06-4) UNRELEASED; urgency=medium
 
   [ Steve McIntyre ]
   * Updated the 2.06-3 changelog to mention closure of CVE-2022-28736
-
   * Add a commented-out GRUB_DISABLE_OS_PROBER section to
     /etc/default/grub to make it easier for users to turn os-prober
     back on if they want it. Closes: #1013797
+  * Add smbios to the signed grub efi images. Closes: #1008106
 
  -- Steve McIntyre <93sam@debian.org>  Sat, 30 Jul 2022 15:23:26 +0100
 
