@@ -1,4 +1,4 @@
-grub2 (2.06-4) UNRELEASED; urgency=medium
+grub2 (2.06-4) unstable; urgency=high
 
   [ Steve McIntyre ]
   * Updated the 2.06-3 changelog to mention closure of CVE-2022-28736
