@@ -90,3 +90,4 @@ minilzo-2.10.patch
 0090-fs-btrfs-Fix-several-fuzz-issues-with-invalid-dir-it.patch
 0091-fs-btrfs-Fix-more-ASAN-and-SEGV-issues-found-with-fu.patch
 0092-fs-btrfs-Fix-more-fuzz-issues-related-to-chunks.patch
+fs-tester-time-fail.patch
