@@ -1,3 +1,11 @@
+grub2 (2.06-6) UNRELEASED; urgency=high
+
+  [ Steve McIntyre ]
+  * Include fonts in the memdisk build for EFI images.
+    Closes: #1024395, #1025352, #1024447
+
+ -- Steve McIntyre <93sam@debian.org>  Sun, 13 Nov 2022 00:33:35 +0000
+
 grub2 (2.06-5) unstable; urgency=high
 
   [ Steve McIntyre ]
