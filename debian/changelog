@@ -1,4 +1,4 @@
-grub2 (2.06-6) UNRELEASED; urgency=high
+grub2 (2.06-6) unstable; urgency=medium
 
   [ Steve McIntyre ]
   * Include fonts in the memdisk build for EFI images.
@@ -9,7 +9,7 @@ grub2 (2.06-6) UNRELEASED; urgency=high
       the Debian GRUB binaries. :-(
   * Switch away from git-dpm
 
- -- Steve McIntyre <93sam@debian.org>  Sun, 04 Dec 2022 18:13:10 +0000
+ -- Steve McIntyre <93sam@debian.org>  Sun, 04 Dec 2022 20:42:23 +0000
 
 grub2 (2.06-5) unstable; urgency=high
 
