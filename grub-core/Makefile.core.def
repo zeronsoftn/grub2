@@ -141,7 +141,7 @@ kernel = {
   common = kern/rescue_parser.c;
   common = kern/rescue_reader.c;
   common = kern/term.c;
-  nopc = kern/verifiers.c;
+  common = kern/verifiers.c;
 
   noemu = kern/compiler-rt.c;
   noemu = kern/mm.c;
@@ -947,12 +947,6 @@ module = {
 };
 
 module = {
-  name = verifiers;
-  common = kern/verifiers.c;
-  enable = i386_pc;
-};
-
-module = {
   name = hdparm;
   common = commands/hdparm.c;
   enable = pci;
@@ -968,14 +962,6 @@ module = {
   name = hexdump;
   common = commands/hexdump.c;
   common = lib/hexdump.c;
-};
-
-module = {
-  name = hwmatch;
-  i386_pc = commands/i386/pc/hwmatch.c;
-  enable = i386_pc;
-  cflags = '$(CFLAGS_POSIX) $(CFLAGS_GNULIB)';
-  cppflags = '$(CPPFLAGS_POSIX) $(CPPFLAGS_GNULIB)';
 };
 
 module = {
@@ -1884,13 +1870,6 @@ module = {
 module = {
   name = appleldr;
   common = loader/efi/appleloader.c;
-  enable = i386_efi;
-  enable = x86_64_efi;
-};
-
-module = {
-  name = linuxefi;
-  efi = loader/i386/efi/linux.c;
   enable = i386_efi;
   enable = x86_64_efi;
 };

@@ -2,7 +2,7 @@
 
    This file is part of the LZO real-time data compression library.
 
-   Copyright (C) 1996-2017 Markus Franz Xaver Johannes Oberhumer
+   Copyright (C) 1996-2014 Markus Franz Xaver Johannes Oberhumer
    All Rights Reserved.
 
    The LZO library is free software; you can redistribute it and/or
@@ -32,25 +32,15 @@
  */
 
 
-#ifndef __MINILZO_H_INCLUDED
-#define __MINILZO_H_INCLUDED 1
+#ifndef __MINILZO_H
+#define __MINILZO_H 1
 
-#define MINILZO_VERSION         0x20a0  /* 2.10 */
+#define MINILZO_VERSION         0x2080
 
-#if defined(__LZOCONF_H_INCLUDED)
+#ifdef __LZOCONF_H
 #  error "you cannot use both LZO and miniLZO"
 #endif
 
-/* internal Autoconf configuration file - only used when building miniLZO */
-#ifdef MINILZO_HAVE_CONFIG_H
-#  include <config.h>
-#endif
-#include <limits.h>
-#include <stddef.h>
-
-#ifndef __LZODEFS_H_INCLUDED
-#include "lzodefs.h"
-#endif
 #undef LZO_HAVE_CONFIG_H
 #include "lzoconf.h"
 
@@ -102,5 +92,3 @@ lzo1x_decompress_safe   ( const lzo_bytep src, lzo_uint  src_len,
 
 #endif /* already included */
 
-
-/* vim:set ts=4 sw=4 et: */
