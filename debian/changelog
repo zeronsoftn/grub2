@@ -1,3 +1,13 @@
+grub2 (2.06-8) UNRELEASED; urgency=medium
+
+  [ Steve McIntyre ]
+
+  * Fix an issue in an f2fs security fix which caused mount
+    failures. Closes: #1021846. Thanks to программист некто for helping
+    to debug the problem!
+
+ -- Steve McIntyre <93sam@debian.org>  Sun, 11 Dec 2022 12:08:44 +0000
+
 grub2 (2.06-7) unstable; urgency=medium
 
   [ Steve McIntyre ]
