@@ -110,3 +110,4 @@ kern-file-Fix-error-handling-in-grub_file_open.patch
 gcc12_build_dangling_pointer.patch
 gcc12_build_array_bounds.patch
 gcc12_build_array_bounds2.patch
+arm64_remove_magic_number_check.patch
