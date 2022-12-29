@@ -7,8 +7,10 @@ grub2 (2.06-8) UNRELEASED; urgency=medium
   * Switch build-deps from gcc-10 to gcc-12. Closes: #1022184
   * Include upstream patch to enable EFI zboot support on arm64.
     Closes: #1026092
+  * grub-mkconfig: Restore umask for the grub.cfg. CVE-2021-3981
+    Closes: #1001414
 
- -- Steve McIntyre <93sam@debian.org>  Sun, 11 Dec 2022 12:08:44 +0000
+ -- Steve McIntyre <93sam@debian.org>  Thu, 29 Dec 2022 13:36:22 +0000
 
 grub2 (2.06-7) unstable; urgency=medium
 
