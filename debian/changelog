@@ -9,6 +9,8 @@ grub2 (2.06-8) UNRELEASED; urgency=medium
     Closes: #1026092
   * grub-mkconfig: Restore umask for the grub.cfg. CVE-2021-3981
     Closes: #1001414
+  * postinst: be more verbose when using grub-install to install onto
+    devices.
 
  -- Steve McIntyre <93sam@debian.org>  Thu, 29 Dec 2022 13:36:22 +0000
 
