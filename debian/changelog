@@ -11,6 +11,8 @@ grub2 (2.06-8) UNRELEASED; urgency=medium
     Closes: #1001414
   * postinst: be more verbose when using grub-install to install onto
     devices.
+  * /etc/default/grub: Fix comment about text-mode console.
+    Fixes #845683
 
  -- Steve McIntyre <93sam@debian.org>  Thu, 29 Dec 2022 13:36:22 +0000
 
