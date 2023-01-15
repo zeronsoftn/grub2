@@ -192,7 +192,7 @@ Index: grub.git/util/grub-install.c
  	}
        t = grub_util_path_concat (3, efidir, "EFI", efi_distributor);
        free (efidir);
-@@ -1375,14 +1378,41 @@ main (int argc, char *argv[])
+@@ -1375,14 +1378,38 @@ main (int argc, char *argv[])
  	}
      }
  
@@ -208,10 +208,7 @@ Index: grub.git/util/grub-install.c
 +      {
 +	char *dir = xasprintf ("%s-signed", grub_install_source_directory);
 +	char *signed_image;
-+	if (removable)
-+	  signed_image = xasprintf ("gcd%s.efi.signed", efi_suffix);
-+	else
-+	  signed_image = xasprintf ("grub%s.efi.signed", efi_suffix);
++	signed_image = xasprintf ("grub%s.efi.signed", efi_suffix);
 +	efi_signed = grub_util_path_concat (2, dir, signed_image);
 +	break;
 +      }
