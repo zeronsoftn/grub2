@@ -20,6 +20,9 @@ grub2 (2.06-8) UNRELEASED; urgency=medium
   * Ignore some new ext2 flags to stay compatible with latest mke2fs
     defaults. Closes: #1030846
 
+  [ Colin Watson ]
+  * Remove myself from Uploaders.
+
  -- Steve McIntyre <93sam@debian.org>  Wed, 08 Feb 2023 21:13:23 +0000
 
 grub2 (2.06-7) unstable; urgency=medium
