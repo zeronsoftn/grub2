@@ -17,8 +17,10 @@ grub2 (2.06-8) UNRELEASED; urgency=medium
     with --removable. Closes: #1016737
   * grub-install: Don't use our grub CD EFI image for --removable.
     Closes: #1026915. Thanks to Pascal Hambourg for the patch.
+  * Ignore some new ext2 flags to stay compatible with latest mke2fs
+    defaults. Closes: #1030846
 
- -- Steve McIntyre <93sam@debian.org>  Thu, 29 Dec 2022 13:36:22 +0000
+ -- Steve McIntyre <93sam@debian.org>  Wed, 08 Feb 2023 21:13:23 +0000
 
 grub2 (2.06-7) unstable; urgency=medium
 
