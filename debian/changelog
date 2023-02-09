@@ -1,4 +1,4 @@
-grub2 (2.06-8) UNRELEASED; urgency=medium
+grub2 (2.06-8) unstable; urgency=medium
 
   [ Steve McIntyre ]
   * Fix an issue in an f2fs security fix which caused mount
@@ -23,7 +23,7 @@ grub2 (2.06-8) UNRELEASED; urgency=medium
   [ Colin Watson ]
   * Remove myself from Uploaders.
 
- -- Steve McIntyre <93sam@debian.org>  Wed, 08 Feb 2023 21:13:23 +0000
+ -- Steve McIntyre <93sam@debian.org>  Thu, 09 Feb 2023 01:09:00 +0000
 
 grub2 (2.06-7) unstable; urgency=medium
 
