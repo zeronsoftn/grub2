@@ -301,7 +301,9 @@ config_item()
 {
   for x in /etc/default/grub /etc/default/grub.d/*.cfg; do
     if [ -e "$x" ]; then
-      . "$x"
+	# Lose any output here so we don't confuse our
+	# caller. The xen packages echo stuff here, Aargh!
+      . "$x" > /dev/null
     fi
   done
   if [ "$(eval echo "\${$1+set}")" = set ]; then

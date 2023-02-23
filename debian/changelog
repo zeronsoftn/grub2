@@ -1,3 +1,10 @@
+grub2 (2.06-9) UNRELEASED; urgency=medium
+
+  [ Steve McIntyre ]
+  * postinst: make config_item() more robust
+
+ -- Steve McIntyre <93sam@debian.org>  Thu, 23 Feb 2023 22:30:32 +0000
+
 grub2 (2.06-8.1) experimental; urgency=medium
 
   * Non-maintainer upload.
