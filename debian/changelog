@@ -3,6 +3,14 @@ grub2 (2.06-9) UNRELEASED; urgency=medium
   [ Steve McIntyre ]
   * postinst: make config_item() more robust
 
+  [ Ben Hutchings ]
+  * Fix probing of LUKS2 devices (Closes: #1028301):
+    - disk/cryptodisk: When cheatmounting, use the sector info of the cheat
+      device
+    - osdep/devmapper/getroot: Have devmapper recognize LUKS2
+    - osdep/devmapper/getroot: Set up cheated LUKS2 cryptodisk mount from DM
+      parameters
+
  -- Steve McIntyre <93sam@debian.org>  Thu, 23 Feb 2023 22:30:32 +0000
 
 grub2 (2.06-8.1) experimental; urgency=medium
