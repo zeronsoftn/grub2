@@ -11,6 +11,10 @@ grub2 (2.06-9) UNRELEASED; urgency=medium
     - osdep/devmapper/getroot: Set up cheated LUKS2 cryptodisk mount from DM
       parameters
 
+  [ Emanuele Rocca ]
+  * Add arm64-handover-to-kernel-if-sb-enabled.patch to fix Secure Boot on
+    arm64 (Closes: #1033657)
+
  -- Steve McIntyre <93sam@debian.org>  Thu, 23 Feb 2023 22:30:32 +0000
 
 grub2 (2.06-8.1) experimental; urgency=medium
