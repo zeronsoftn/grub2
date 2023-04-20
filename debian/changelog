@@ -1,4 +1,4 @@
-grub2 (2.06-9) UNRELEASED; urgency=medium
+grub2 (2.06-9) unstable; urgency=medium
 
   [ Steve McIntyre ]
   * postinst: make config_item() more robust
@@ -22,7 +22,7 @@ grub2 (2.06-9) UNRELEASED; urgency=medium
   [ Mattia Rizzolo ]
   * Don't warn about os-prober if it's not installed. Closes: #1020769
 
- -- Steve McIntyre <93sam@debian.org>  Thu, 20 Apr 2023 22:30:32 +0000
+ -- Steve McIntyre <93sam@debian.org>  Thu, 20 Apr 2023 20:35:11 +0100
 
 grub2 (2.06-8.1) experimental; urgency=medium
 
