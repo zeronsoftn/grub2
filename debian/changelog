@@ -5,6 +5,7 @@ grub2 (2.06-9) UNRELEASED; urgency=medium
   * Add debconf logic for GRUB_DISABLE_OS_PROBER to make it easier to
     control things here. Particularly useful for the installer.
     Closes: #1031594, #1012865.
+  * Add luks2 to the signed grub efi images. Closes: #1001248
 
   [ Ben Hutchings ]
   * Fix probing of LUKS2 devices (Closes: #1028301):
