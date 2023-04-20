@@ -4,7 +4,7 @@ grub2 (2.06-9) UNRELEASED; urgency=medium
   * postinst: make config_item() more robust
   * Add debconf logic for GRUB_DISABLE_OS_PROBER to make it easier to
     control things here. Particularly useful for the installer.
-    Closes: #1031594, #1012865.
+    Closes: #1031594, #1012865, #1025698.
   * Add luks2 to the signed grub efi images. Closes: #1001248
 
   [ Ben Hutchings ]
