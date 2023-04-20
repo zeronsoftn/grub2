@@ -119,3 +119,4 @@ disk-cryptodisk-when-cheatmounting-use-the-sector-info-of-the-cheat-device.patch
 osdep-devmapper-getroot-have-devmapper-recognize-luks2.patch
 osdep-devmapper-getroot-set-up-cheated-luks2-cryptodisk-mount-from-dm-parameters.patch
 arm64-handover-to-kernel-if-sb-enabled.patch
+grub_os-prober.patch
