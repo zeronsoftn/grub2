@@ -4,6 +4,8 @@ grub2 (2.06-13) UNRELEASED; urgency=medium
   * When *also* installing to the removable media path, include the
     relevant mokmanager binary. Closes: #1034409
 
+  [ General Chaos ]
+  * Allow initrd to contain spaces. Closes: #838177, #820838.
 
  -- Steve McIntyre <93sam@debian.org>  Sun, 23 Apr 2023 20:55:54 +0100
 
