@@ -7,6 +7,21 @@ grub2 (2.06-13) UNRELEASED; urgency=medium
   [ General Chaos ]
   * Allow initrd to contain spaces. Closes: #838177, #820838.
 
+  [ Translators ]
+  * Update lots of translations of debconf templates, thanks to the
+    following:
+    + Welsh (Dafydd Tomos)
+    + German (Helge Kreutzmann). Closes: #1034850
+    + Croatian (Tomislav Krznar)
+    + Italian (Luca Monducci). Closes: #1034825
+    + Kazakh (Baurzhan Muftakhidinov)
+    + Korean (Changwoo Ryu). Closes: #1034868
+    + Latvian (Rudolfs Mazurs)
+    + Norwegian Bokmål (Petter Reinholdtsen, Sverre Vaabenoe)
+    + Romanian (Remus-Gabriel Chelu)
+    + Russian (Yuri Kozlov). Closes: #1035294
+    + Swedish (Luna Jernberg)
+
  -- Steve McIntyre <93sam@debian.org>  Sun, 23 Apr 2023 20:55:54 +0100
 
 grub2 (2.06-12) unstable; urgency=medium
