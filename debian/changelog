@@ -13,11 +13,15 @@ grub2 (2.06-13) UNRELEASED; urgency=medium
     + Welsh (Dafydd Tomos)
     + German (Helge Kreutzmann). Closes: #1034850
     + Croatian (Tomislav Krznar)
+    + Esperanto (Felipe Castro)
+    + French (Baptiste Jammet). Closes: #1035761
     + Italian (Luca Monducci). Closes: #1034825
     + Kazakh (Baurzhan Muftakhidinov)
     + Korean (Changwoo Ryu). Closes: #1034868
     + Latvian (Rudolfs Mazurs)
+    + Dutch (Frans Spiesschaert). Closes: #1035399
     + Norwegian Bokmål (Petter Reinholdtsen, Sverre Vaabenoe)
+    + Brazilian Portuguese (Adriano Rafael Gomes). Closes: #1035905
     + Romanian (Remus-Gabriel Chelu)
     + Russian (Yuri Kozlov). Closes: #1035294
     + Swedish (Luna Jernberg)
