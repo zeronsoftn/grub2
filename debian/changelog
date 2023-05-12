@@ -13,6 +13,7 @@ grub2 (2.06-13) UNRELEASED; urgency=medium
     + Welsh (Dafydd Tomos)
     + German (Helge Kreutzmann). Closes: #1034850
     + Croatian (Tomislav Krznar)
+    + Greek (Emmanuel Galatoulas)
     + Esperanto (Felipe Castro)
     + French (Baptiste Jammet). Closes: #1035761
     + Italian (Luca Monducci). Closes: #1034825
@@ -24,6 +25,7 @@ grub2 (2.06-13) UNRELEASED; urgency=medium
     + Brazilian Portuguese (Adriano Rafael Gomes). Closes: #1035905
     + Romanian (Remus-Gabriel Chelu)
     + Russian (Yuri Kozlov). Closes: #1035294
+    + Turkish (Atila KOÇ). Closes: #1035846
     + Swedish (Luna Jernberg)
 
  -- Steve McIntyre <93sam@debian.org>  Sun, 23 Apr 2023 20:55:54 +0100
