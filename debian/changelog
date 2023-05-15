@@ -1,4 +1,4 @@
-grub2 (2.06-13) UNRELEASED; urgency=medium
+grub2 (2.06-13) unstable; urgency=medium
 
   [ Steve McIntyre ]
   * When *also* installing to the removable media path, include the
